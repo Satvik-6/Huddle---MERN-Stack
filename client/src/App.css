@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+a {
+  color: black ;
+}
+body{
+  background-color: rgb(228, 140, 140);
+}
+.brand-logo{
+  font-family: 'Nerko One', cursive;
+  margin-left:20px;
+}
+.mycard{
+  margin-top:30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.home-card{
+  max-width:500px;
+  height:max-content;
+  margin:25px auto;
+}
+.input-field input[type=text]:focus{
+  border-bottom:1px solid rgb(41, 206, 184) !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+
+}
+.input-field input[type=password]:focus{
+  border-bottom:1px solid rgb(41, 206, 184) !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+
+}
+
+
+button{
+  margin:10px;
+}
+
+#toast-container{
+  top:30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width:30%;
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
